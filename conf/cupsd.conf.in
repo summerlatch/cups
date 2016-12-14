@@ -30,6 +30,7 @@ WebInterface @CUPS_WEBIF@
 # Restrict access to the admin pages...
 <Location /admin>
   Order allow,deny
+  Allow localhost
 </Location>
 
 # Restrict access to configuration files...
